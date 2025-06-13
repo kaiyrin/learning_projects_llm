@@ -6,7 +6,7 @@ from typing import List, Dict, Optional, Tuple, TypedDict
 from dotenv import load_dotenv
 from langchain_openai import AzureChatOpenAI
 from langgraph.graph import StateGraph, END, START
-from config.llm_config import get_llm
+from config.llm_config import get_llm #ENTER YOUR LLM MODEL CONFIGURATIONS
 
 # Load environment variables from .env file
 _ = load_dotenv()
